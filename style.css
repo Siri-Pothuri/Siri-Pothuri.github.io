@@ -1,8 +1,33 @@
 body {
-    background-color: rgb(104, 183, 104);
+    background-color: rgb(230, 230, 230);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
     color: black;
     text-align: center;
+}
+
+.top-bar {
+    color: white;
+    position:fixed;
+    background-color: rgb(6, 5, 5);
+    width: 100%;
+    padding: 14px 16px;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+li {
+    float:left;
+    display:block;
+    text-align:center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.main-body {
+    padding:20px;
+    height:100%;
 }
